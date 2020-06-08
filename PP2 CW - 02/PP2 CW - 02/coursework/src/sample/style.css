@@ -1,0 +1,53 @@
+#label{             /*main date picker label*/
+    -fx-font-size: 40px;
+    -fx-text-fill: #0ff;
+    -fx-effect: dropshadow( one-pass-box , white , 8 , 0.0 , 2 , 0 );
+}
+
+#nameLabel{         /*train name label*/
+    -fx-font-size: 15px;
+    -fx-text-fill: #e91e63;
+}
+
+#continueBtn{       /*the continue, confirm buttons*/
+    -fx-background-color: #e91e63;
+    -fx-text-fill: #fff;
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 20;
+    -fx-padding: 10px 45px 10px 45px;
+}
+
+#continueBtn:hover{
+    -fx-background-color: #fff;
+    -fx-text-fill: #e91e63;
+}
+
+#greenBtn{          /*the green seat*/
+    -fx-background-color: transparent;
+    -fx-text-fill: #228c22;
+    -fx-border-color: #228c22;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+}
+
+#greenBtn:hover{
+    -fx-background-color: #228c22;
+    -fx-text-fill: #222;
+}
+
+#driver{            /*driver button on the bottom*/
+    -fx-background-radius: 10;
+    -fx-background-color: #f00;
+    -fx-text-fill: #fff;
+    -fx-padding: 12px 22px 11px 22px;
+}
+
+#info{              /*the red and green info on GUI*/
+    -fx-font-size: 30px;
+    -fx-text-fill: #e91e63;
+}
+
+#ticket{            /*ticket prices on the date picker GUI*/
+    -fx-font-size: 20px;
+    -fx-text-fill: #fff;
+}
